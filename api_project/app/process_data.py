@@ -29,8 +29,8 @@ def process_data(input_file_path, output_file_path, api_url):
     print(f"Resultados guardados en '{output_file_path}'")
 
 if __name__ == "__main__":
-    input_file_path = 'input_data.json'   # Ruta al archivo JSON de entrada
-    output_file_path = 'output_results.json'  # Ruta al archivo JSON de salida
+    input_file_path = 'api_project/input_data.json'   # Ruta al archivo JSON de entrada
+    output_file_path = 'api_project/output_results.json'  # Ruta al archivo JSON de salida
     api_url = "http://127.0.0.1:8000/predict/"  # URL de la API
 
     process_data(input_file_path, output_file_path, api_url)
