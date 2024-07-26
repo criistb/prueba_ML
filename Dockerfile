@@ -21,3 +21,4 @@ EXPOSE 8000
 
 # Comando para ejecutar la aplicación
 ENTRYPOINT ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port 8000 & python app/process_data.py"]
+
