@@ -40,6 +40,6 @@ La API se ha construido usando FastAPI y permite realizar las siguientes operaci
 
 Primero se deberá abrir el proyecto en la carpeta PRUEBA_TECNICA, crear ambiente virtual, instalar el `requirements.txt`, luego ejecutar completamente el Notebook `PruebaTecnica.ipynb`. Posteriormente, ir a la carpeta `api_project` y activar app en la terminal con el comando `uvicorn app.main:app --reload`, finalmente en otra terminal ejecutar `(python/py) api_project/app/process_data.py`. Esto entregará el json con la clasificación
 
-# Dockerfile
+### Dockerfile
 
 La funcionalidad fue intentada para añadirse pero requiere ajustes, por el momento no usarla.
